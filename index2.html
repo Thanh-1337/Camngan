@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký tham gia Câu lạc bộ Nấu ăn</title>
+</head>
+<body>
+    <h2>Đăng ký tham gia Câu lạc bộ Nấu ăn</h2>
+    <form action="#" method="post">
+        <label for="fullname">Họ và tên:</label>
+        <input type="text" id="fullname" name="fullname" required><br><br>
+
+        <label for="birthdate">Ngày sinh:</label>
+        <input type="date" id="birthdate" name="birthdate" required><br><br>
+
+        <label for="nickname">Biệt danh vào CLB:</label>
+        <input type="text" id="nickname" name="nickname"><br><br>
+
+        <label>Giới tính:</label>
+        <input type="radio" id="male" name="gender" value="Nam">
+        <label for="male">Nam</label>
+        <input type="radio" id="female" name="gender" value="Nữ">
+        <label for="female">Nữ</label><br><br>
+
+        <label for="cooking_interest">Sở thích về nấu ăn:</label><br>
+        <textarea id="cooking_interest" name="cooking_interest" rows="3" cols="30" placeholder="Chia sẻ về sở thích của bạn với nấu ăn..."></textarea><br><br>
+
+        <label>Món ăn yêu thích:</label><br>
+        <input type="checkbox" id="vietnamese" name="favorite_food" value="Món Việt">
+        <label for="vietnamese">Món Việt</label>
+        <input type="checkbox" id="asian" name="favorite_food" value="Món Á">
+        <label for="asian">Món Á</label>
+        <input type="checkbox" id="european" name="favorite_food" value="Món Âu">
+        <label for="european">Món Âu</label><br><br>
+
+        <label for="cooking_experience">Kinh nghiệm nấu ăn:</label><br>
+        <textarea id="cooking_experience" name="cooking_experience" rows="3" cols="30" placeholder="Chia sẻ về kinh nghiệm của bạn trong nấu ăn (nếu có)..."></textarea><br><br>
+
+        <label for="reason">Lý do tham gia Câu lạc bộ:</label><br>
+        <textarea id="reason" name="reason" rows="3" cols="30" placeholder="Vì sao bạn muốn tham gia Câu lạc bộ Nấu ăn?"></textarea><br><br>
+
+        <button type="submit">Gửi đăng ký</button>
+    </form>
+</body>
+</html>
